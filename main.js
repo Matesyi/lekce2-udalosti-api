@@ -12,3 +12,7 @@ function priNajetiNaCtverec() {
     console.log('test ' + pocitadlo);
     pocitadlo++;
 }
+
+function zmenStyl() {
+    nadpis.classList.toggle('zeleny');
+}
