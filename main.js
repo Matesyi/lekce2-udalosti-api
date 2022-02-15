@@ -6,3 +6,9 @@ nadpis.classList.remove('zluty');
 
 let ctverecek = document.querySelector('div.zluty');
 ctverecek.classList.add('ctverecek');
+
+let pocitadlo = 0;
+function priNajetiNaCtverec() {
+    console.log('test ' + pocitadlo);
+    pocitadlo++;
+}
