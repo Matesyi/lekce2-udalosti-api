@@ -20,3 +20,9 @@ function zmenStyl() {
 function stiskKlavesy(udalost) {
     console.log(udalost.key);
 }
+
+function startAudio() {
+    let audioFile = document.getElementById('zvukovaStopa');
+    console.log('Zapínám píseň...');
+    audioFile.play();
+}
