@@ -16,3 +16,7 @@ function priNajetiNaCtverec() {
 function zmenStyl() {
     nadpis.classList.toggle('zeleny');
 }
+
+function stiskKlavesy(udalost) {
+    console.log(udalost.key);
+}
